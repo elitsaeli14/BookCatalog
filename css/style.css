@@ -1,0 +1,96 @@
+h1{
+	color: #0047b3;
+	font-family: "Open Sans"; 
+	position: absolute;
+	font-size: 30px; 
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+nav ul li{
+	color: white;
+	padding: 16px;
+	font-size: 25px;
+	background-color:#0047b3;
+	display: inline;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.dropButton {
+	background-color:#0047b3;
+	color: white;
+	padding: 10px;
+	font-size: 25px;
+	border: none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.dropDown {
+	position: relative;
+	display: inline-block;
+	color: white;
+}
+
+.dropDown-cont {
+	display: none;
+	position: absolute;
+	background-color:#0047b3;
+	min-width: 120px;
+	font-size:19px;
+	z-index:1;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+.dropDown-cont a {
+	color:white;
+	padding: 10px 14px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropDown:hover .dropDown-cont {display: block;}
+
+.dropDown-cont a:hover {background-color: #ff4d4d;}
+
+a:link{
+	text-decoration: none;
+	 color: white;
+}
+
+a:visited {
+	text-decoration: none;
+  color: white;
+}
+
+a:active {
+	text-decoration: none;
+  color: white;
+} 
+.logo {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.imageBooks{
+	position: relative;
+	text-align: center;
+}
+
+fieldset{
+	background-color:#ffa64d;
+}
+
+
+a.book{
+	color:#003300;
+	font-size: 18px;
+}
+
+p{
+	color:#0047b3;
+}
+
